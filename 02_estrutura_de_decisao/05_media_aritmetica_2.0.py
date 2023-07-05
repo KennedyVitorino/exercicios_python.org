@@ -12,10 +12,10 @@ def media_aritmetica(n1, n2):
     elif m > 10:
         return '⚠️ Digite um valor válido ⚠️'
     elif not m != 10:
-        return '🥳👏🏽 APROVADO COM HONRAS 👏🏽🥳'
+        return f'Média -> {m:.1f}\n🥳👏🏽 APROVADO COM HONRAS 👏🏽🥳'
     elif m >= 7:
-        return '🥳👏🏽 APROVADO 🥳👏🏽'
-    return '⚠️☠️ REPROVADO ☠️⚠️'
+        return f'Média -> {m:.1f}\n🥳👏🏽 APROVADO 🥳👏🏽'
+    return f'Média -> {m:.1f}\n⚠️☠️ REPROVADO ☠️⚠️'
     
     
 nota_1 = float(input('Digite a primeira nota: '))
