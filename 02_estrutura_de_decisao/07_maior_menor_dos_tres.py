@@ -5,11 +5,28 @@ def encontrar_maior(a, b, c):
         maior = a
     elif b > a and b > c:
         maior = b
-        
-n1 = int(input('n :'))
-n2 = int(input('n :'))
-n3 = int(input('n :'))
+    else:
+        maior = c
+    return maior
+    
 
-ma, me = encontrar_maior_menor(n1, n2, n3)
+def encontrar_menor(a, b, c,):
+    if a < b and a < c:
+        menor = a
+    elif b < a and b < c:
+        menor = b
+    else:
+        menor = c
+    return menor
+    
+    
+n1 = int(input('Número 1 -> '))
+n2 = int(input('Número 2 -> '))
+n3 = int(input('Número 3 -> '))
 
-print(ma, me)
+maior_numero = encontrar_maior(n1, n2, n3)
+menor_numero = encontrar_menor(n1, n2, n3)
+
+print(f'\nO maior número é: {maior_numero}')
+print(f'O menor número é: {menor_numero}')
+
