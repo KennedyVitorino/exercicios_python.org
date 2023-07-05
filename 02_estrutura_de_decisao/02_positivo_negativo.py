@@ -13,4 +13,5 @@ def verifica_positivo_negativo(n):
     
 numero = int(input('Digite o número: '))
 verifica_positivo_negativo = verifica_positivo_negativo(numero)
+
 print(verifica_positivo_negativo)
