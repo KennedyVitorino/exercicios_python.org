@@ -16,7 +16,6 @@ def verificar_turno_estudo(turno_estudo):
     
 
 turno = input('Em qual turno voce estuda?\n[M]atutino, [V]espertino ou [N]Noturno: ')
-
 verificar_turno = verificar_turno_estudo(turno)
 
 print(f'\n{verificar_turno}')
