@@ -1,6 +1,4 @@
-# Lista de Exercícios python.org
-
-## [Estruturas Sequenciais]()
+# [Estruturas Sequenciais]()
 
 1. [Olá, mundo](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/1_ola_mundo.py)
 2. [exibindo número informado](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/2_exibindo_numero_informado.py)
@@ -18,7 +16,7 @@
 14. [Controle de peso de peixes](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/14_controle_peso_peixes.py)
 15. [Calculo de salário com descontos (IR, INSS e SINDICATO).](https://github.com/Knnedy/exercicios_python.org/blob/master/lista_de_exercicios/estruturas_sequenciais/15_salario_com_descontos.py)
 16. [Quantidade de tinta necessária para pintar N metros quadrados.](https://github.com/Knnedy/exercicios_python.org/blob/master/lista_de_exercicios/estruturas_sequenciais/16_loja_de_tintas.py)
-17. [Quantidade de tinta necessária para pintar N metros quadrados 2.0.]()
+17. [Quantidade de tinta necessária para pintar N metros quadrados 2.0.](https://github.com/Knnedy/exercicios_python.org/blob/master/lista_de_exercicios/estruturas_sequenciais/17_loja_de_tintas_2.0.py)
 
 
 
