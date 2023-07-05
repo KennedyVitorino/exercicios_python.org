@@ -2,12 +2,11 @@
 
 
 def maior_deles(a, b, c):
-    m = a
     if a > b and a > c:
         m = a
     elif b > a and b > c:
         m = b
-    elif c > a and c > b:
+    else:
         m = c
     return m
     
