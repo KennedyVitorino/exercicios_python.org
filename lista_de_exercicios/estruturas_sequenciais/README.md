@@ -11,8 +11,7 @@
 7. [Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/7_area_do_quadrado.py)
 8. [Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês.](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/8_calculadora_salario.py)
 9. [Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.<br>C = 5 * ((F-32) / 9).](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/9_fahrenheit_para_celsius.py)
-10. [Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em 
-    graus Fahrenheit. <br>F = (C * 9/5) + 32](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/10_celsius_para_fahrenheit.py)
+10. [Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre em graus Fahrenheit. <br>F = (C * 9/5) + 32](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/10_celsius_para_fahrenheit.py)
 11. [Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre:
 <br>a) O produto do dobro do primeiro com metade do segundo.
 <br>b) A soma do triplo do primeiro com o terceiro.
@@ -20,8 +19,8 @@
 12. [Tendo como dados de entrada a altura de uma pessoa, construa um algoritmo que calcule seu peso ideal, usando a seguinte fórmula: 
 <br>(72.7*altura) - 58](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/12_calculo_IMC.py)
 13. [Tendo como dado de entrada a altura (h) de uma pessoa, construa um algoritmo que calcule seu peso ideal, utilizando as seguintes fórmulas:
-<br>a) Para homens: (72.7*h) - 58
-<br>b) Para mulheres: (62.1*h) - 44.7](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/13_calculo_IMC_homem_mulher.py)
+<br> a) Para homens: (72.7*h) - 58
+<br> b) Para mulheres: (62.1*h) - 44.7](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/13_calculo_IMC_homem_mulher.py)
 14. [João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente. João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso. Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. Imprima os dados do programa com as mensagens adequadas.](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/14_controle_peso_peixes.py)
 15. [Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
 <br>Salário bruto.
