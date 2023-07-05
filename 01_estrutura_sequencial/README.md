@@ -1,4 +1,4 @@
-# [Estrutura Sequencial]()
+# [Estrutura Sequencial](https://wiki.python.org.br/EstruturaSequencial)
 
 1. [Olá, mundo](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/1_ola_mundo.py)
 2. [exibindo número informado](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/2_exibindo_numero_informado.py)
