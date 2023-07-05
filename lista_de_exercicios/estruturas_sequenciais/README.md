@@ -33,7 +33,7 @@
 <br> - INSS (8%) : R$
 <br> - Sindicato ( 5%) : R$
 <br> = Salário Liquido : R$](https://github.com/Knnedy/exercicios_python.org/blob/master/lista_de_exercicios/estruturas_sequenciais/15_salario_com_descontos.py)
-16. [Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.]()
+16. [Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.](https://github.com/Knnedy/exercicios_python.org/blob/master/lista_de_exercicios/estruturas_sequenciais/16_loja_de_tintas.py)
 17. [Faça um Programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada. Considere que a cobertura da tinta é de 1 litro para cada 6 metros quadrados e que a tinta é vendida em latas de 18 litros, que custam R$ 80,00 ou em galões de 3,6 litros, que custam R$ 25,00.
 <br>Informe ao usuário as quantidades de tinta a serem compradas e os respectivos preços em 3 situações:
 <br>Comprar apenas latas de 18 litros;
