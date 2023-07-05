@@ -35,6 +35,6 @@ n1 = float(input('Digite o primeiro número: '))
 n2 = float(input('Digite o segundo número: '))
 n3 = float(input('Digite o terceiro número: '))
 numeros_ordenados = ordenar_numeros(n1, n2, n3)
-ordem_decrescente = f'Em ordem decrescente: {", ".join(map(str, numeros_ordenados))}'
+ordem_decrescente = f'Ordem decrescente: {", ".join(map(str, numeros_ordenados))}'
 
 print(ordem_decrescente)
