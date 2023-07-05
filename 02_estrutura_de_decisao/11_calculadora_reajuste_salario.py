@@ -11,8 +11,8 @@
 # o percentual de aumento aplicado;
 # o valor do aumento;
 # o novo salário, após o aumento.
- 
- 
+
+
 def calcular_reajuste_salarial(salario_atual):
     salario_atual = float(salario_atual)
     if salario_atual <= 280:
@@ -23,7 +23,7 @@ def calcular_reajuste_salarial(salario_atual):
         aumento_percentual = 10
     else:
         aumento_percentual = 5
-        
+    
     aumento_salarial = salario_atual * (aumento_percentual / 100)
     salario_novo = salario_atual + aumento_salarial
     
@@ -33,7 +33,7 @@ def calcular_reajuste_salarial(salario_atual):
 salario = float(input('Digite o salário atual do colaborador: R$ '))
 percentual, aumento, novo_salario = calcular_reajuste_salarial(salario)
 
-print(f'\nSalário antes do reajuste: R${salario:.2f}')
-print(f'Percentual de aumento: {percentual:.1f}%')
-print(f'Valor do aumento: R$ {aumento:.2f}')
-print(f'Novo salário após aumento: R$ {novo_salario:.2f}')
+print(f'\nSalário antes do reajuste: R${salario:.2f}'
+      f'\nPercentual de aumento: {percentual:.1f}%'
+      f'\nValor do aumento: R$ {aumento:.2f}'
+      f'\nNovo salário após aumento: R$ {novo_salario:.2f}')
