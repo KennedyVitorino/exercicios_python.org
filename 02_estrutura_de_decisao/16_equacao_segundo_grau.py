@@ -26,14 +26,19 @@ def calculo_raizes_equacao_segundo_grau(a, b, c):
         raiz2 = (-b + sqrt(delta)) / (2 * a)
         return f'A equação possui duas raízes reais: {raiz1} - {raiz2}'
 
-     
-n1 = float(input('Digite o valor de a: '))
-if n1 != 0:
-    n2 = float(input('Digite o valor de b: '))
-    n3 = float(input('Digite o valor de c: '))
-    
-    resultado = calculo_raizes_equacao_segundo_grau(n1, n2, n3)
-    print(resultado)
-else:
-    print('A equação não é o segundo grau')
+
+def main():
+    n1 = float(input('Digite o valor de a: '))
+    if n1 != 0:
+        n2 = float(input('Digite o valor de b: '))
+        n3 = float(input('Digite o valor de c: '))
+        
+        resultado = calculo_raizes_equacao_segundo_grau(n1, n2, n3)
+        print(resultado)
+    else:
+        print('A equação não é o segundo grau')
+        
+        
+if __name__ == '__main__':
+    main()
     
