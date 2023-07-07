@@ -12,15 +12,15 @@
 def calcular_media_aritmetica(n1, n2):
     m = (n1 + n2) / 2
     if 9 <= m <= 10:
-        return f'Média: {m:.2f} -> A'
+        return f'Aprovado! \nMédia: {m:.2f}, A'
     elif 7.5 <= m <= 9:
-        return f'Média: {m:.2f} -> B'
+        return f'Aprovado! \nMédia: {m:.2f}, B'
     elif 6.0 <= m <= 7.5:
-        return f'Média: {m:.2f} -> C'
+        return f'Aprovado! \nMédia: {m:.2f}, C'
     elif 4 <= m <= 6:
-        return f'Média: {m:.2f} -> D'
+        return f'Reprovado! \nMédia: {m:.2f}, D'
     elif m <= 4 or m == 0:
-        return f'Média: {m:.2f} -> E'
+        return f'Reprovado! \nMédia: {m:.2f}, E'
     else:
         return 'Média inválida.'
 
