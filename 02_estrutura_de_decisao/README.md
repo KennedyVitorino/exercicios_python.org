@@ -11,7 +11,7 @@
 9. [Ordenação descrecente](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/09_numeros_em_ordem_crescente.py)
 10. [Verificando o turno de estudo](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/10_verificar_turno_estudo.py)
 11. [Calculadora de reajuste salarial](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/11_calculadora_reajuste_salario.py)
-12. [Calculo de reajuste salarial 2.0](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/12_calculo_folha_pagamento.py)
+12. [Calculadora de reajuste salarial 2.0](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/12_calculo_folha_pagamento.py)
 13. [Verificando o dia da semana](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/13_exibir_dia_da_semana.py) 
 14. [Média artimética 3.0](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/14_media_aritmetica_2.0.py)
 15. [Triângulos](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/15_triangulos.py)
