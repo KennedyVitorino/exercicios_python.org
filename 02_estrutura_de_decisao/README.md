@@ -5,8 +5,8 @@
 3. [Verificando o gênero digitado](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/03_verifica_genero_digitado.py)
 4. [É vogal ou consoante?](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/04_verifica_vogal_consoante.py)
 5. [Média aritimética 2.0](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/05_media_aritmetica_2.0.py)
-6. [Maior dos três](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/06_maior_dos_tres.py)
-7. [Maior e menor dos três](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/07_maior_menor_dos_tres.py)
+6. [Maior de três números](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/06_maior_dos_tres.py)
+7. [Maior e menor de três números](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/07_maior_menor_dos_tres.py)
 8. [Encontrando produto mais barato](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/08_encontrar_produto_mais_barato.py)
 9. [Ordenação descrecente](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/09_numeros_em_ordem_crescente.py)
 10. [Verificando o turno de estudo](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/10_verificar_turno_estudo.py)
@@ -16,3 +16,5 @@
 14. [Média artimética 4.0](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/14_media_aritmetica_2.0.py)
 15. [Triângulos](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/15_triangulos.py)
 16. [Equação de segundo grau]()
+17. [Ano bissexto]()
+18. 
