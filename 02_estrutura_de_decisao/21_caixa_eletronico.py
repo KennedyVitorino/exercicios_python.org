@@ -51,5 +51,3 @@ def caixa_eletronico(valor_saque):
     
 saque = float(input('Quanto deseja sacar hoje: R$💸 '))
 caixa_eletronico(saque)
-
-
