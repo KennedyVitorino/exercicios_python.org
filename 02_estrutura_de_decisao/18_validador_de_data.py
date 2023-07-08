@@ -46,14 +46,6 @@ def data_valida():
 
 
 def main():
-    data_verificar = input('Digite a data no formato dd/mm/aaaa: ')
-    validar_data = validar_data_datetime(data_verificar)
-    
-    if validar_data:
-        print('A data é válida.')
-    else:
-        print('A data é inválida.')
-    
     if data_valida():
         print('A data é válida!')
     else:
