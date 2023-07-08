@@ -17,4 +17,4 @@
 15. [Triângulos](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/15_triangulos.py)
 16. [Equação de segundo grau](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/16_equacao_segundo_grau.py)
 17. [Ano bissexto](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/17_ano_bissexto.py)
-18. [Validador de data]()
+18. [Validador "manual" de data ](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/18_validador_de_data.py) & [Validador de data com datetime ](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/18_validador_de_data_datetime.py)
