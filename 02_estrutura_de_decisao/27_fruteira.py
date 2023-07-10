@@ -47,8 +47,6 @@ def main():
           f'\nPreço total das compras: R$ {preco_maca + preco_mor:.2f}'
           f'\n\n🛒 Volte sempre à nossa feirinha. 🛒')
     
-    
-    
 
 if __name__ == '__main__':
     main()
