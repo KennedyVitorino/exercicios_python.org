@@ -3,7 +3,7 @@
 
 
 def eh_inteiro_decimal(numero):
-    if numero.is_integer():
+    if numero % 1 == 0:
         return 'inteiro'
     else:
         return 'decimal'
