@@ -26,7 +26,6 @@ def calcular_valor_pago_gasolina(litros):
         valor_pago = litros * (preco_gasolina - (preco_gasolina * 0.04))
     else:
         valor_pago = litros * (preco_gasolina - (preco_gasolina * 0.06))
-    
     return valor_pago
 
 
