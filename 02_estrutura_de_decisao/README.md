@@ -23,3 +23,6 @@
 21. [Caixa eletronico](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/21_caixa_eletronico.py) & [Caixa eletronico com listas](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/21_caixa_eletronico_listas.py)
 22. [Par ou ímpar](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/22_verificar_par_impar.py)
 23. [Verificar se é inteiro ou decimal](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/23_inteiro_ou_decimal.py)
+24. [Calculadora Básica](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/24_calculadora_basica.py)
+25. [Jogo: inocente, suspeito, cúmplice ou assassino](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/25_jogo_vitima_inocente.py)
+26. 
