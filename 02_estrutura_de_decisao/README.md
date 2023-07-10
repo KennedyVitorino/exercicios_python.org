@@ -26,5 +26,5 @@
 24. [Calculadora Básica](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/24_calculadora_basica.py)
 25. [Jogo: inocente, suspeito, cúmplice ou assassino](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/25_jogo_vitima_inocente.py)
 26. [Venda de combustíveis](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/26_vendas_combustivel.py)
-27. []()
-28. []()
+27. [Venda de frutas](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/27_fruteira.py)
+28. [Hipermercado](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/28_hipermercado.py)
