@@ -3,14 +3,13 @@
 
 
 def eh_inteiro_decimal(numero):
-    numero_arredondado = round(numero)
-    if numero == numero_arredondado:
+    if numero.is_integer():
         return 'inteiro'
     else:
         return 'decimal'
     
     
-num = int(input('Digite um número: '))
+num = float(input('\nDigite um número: '))
 tipo = eh_inteiro_decimal(num)
 
 print(f'O número {num} é do tipo {tipo}')
