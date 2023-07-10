@@ -50,7 +50,7 @@ def main():
                   f'\nTotal: R$ {alcool_pago + gasolina_paga:.2f}')
             msg_volte_sempre()
         else:
-            litros_vendidos = float(input('\n⛽ Informe quantos litros deseja abastecer: '))
+            litros_vendidos = float(input('\n⛽ Quantos litros deseja abastecer: '))
             if tipo_combustivel.lower() == 'a':
                 alcool_pago = calcular_valor_pago_alcool(litros_vendidos)
                 print(f'Álcool {litros_vendidos} litros. Preco: R$ {alcool_pago:.2f}')
