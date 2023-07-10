@@ -25,4 +25,6 @@
 23. [Verificar se é inteiro ou decimal](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/23_inteiro_ou_decimal.py)
 24. [Calculadora Básica](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/24_calculadora_basica.py)
 25. [Jogo: inocente, suspeito, cúmplice ou assassino](https://github.com/Knnedy/exercicios_python.org/blob/master/02_estrutura_de_decisao/25_jogo_vitima_inocente.py)
-26. 
+26. [Venda de combustíveis]()
+27. []()
+28. []()
