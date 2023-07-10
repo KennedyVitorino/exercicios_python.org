@@ -1,1 +1,1 @@
-# [Estrutura de Repetição]()
+# [Estrutura de Repetição](https://github.com/Knnedy/exercicios_python.org/tree/master/03_estrutura_de_repeticao)
