@@ -48,7 +48,6 @@ def main():
             print(f'\nÁlcool: {lts_alcool} litros. Preço: R$ {alcool_pago:.2f}'
                   f'\nGasolina: {lts_gasolina} litros. Preco: R$ {gasolina_paga:.2f}'
                   f'\nTotal: R$ {alcool_pago + gasolina_paga:.2f}')
-            msg_volte_sempre()
         else:
             litros_vendidos = float(input('\n⛽ Quantos litros deseja abastecer: '))
             if tipo_combustivel.lower() == 'a':
@@ -56,8 +55,8 @@ def main():
                 print(f'Álcool {litros_vendidos} litros. Preco: R$ {alcool_pago:.2f}')
             elif tipo_combustivel.lower() == 'g':
                 gasolina_paga = calcular_valor_pago_gasolina(litros_vendidos)
-                print(f'Gasolina {litros_vendidos}litros. Preço: R$ {gasolina_paga:.2f}')
-            msg_volte_sempre()
+                print(f'Gasolina {litros_vendidos} litros. Preço: R$ {gasolina_paga:.2f}')
+        msg_volte_sempre()
     else:
         print("Tipo de combustível inválido.")
 
