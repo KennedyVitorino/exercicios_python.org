@@ -27,18 +27,18 @@ def inteiro_decimal(n):
         return 'decimal'
 
 
-def calculadora_basica(n1, n2, o):
-    if o == '+':
+def operacoes_basicas(n1, n2, op):
+    if op == '+':
         return n1 + n2
-    elif o == '-':
+    elif op == '-':
         return n1 - n2
-    elif o == '*':
+    elif op == '*':
         return n1 * n2
-    elif o == '/':
+    elif op == '/':
         return n1 / n2
-    elif o == '//':
+    elif op == '//':
         return n1 // n2
-    elif o == '**':
+    elif op == '**':
         return n1 ** n2
     else:
         raise ValueError('Operação inválida.')
@@ -49,7 +49,7 @@ def main():
     numero2 = float(input('Digite o segundo número: '))
     operacao = input('Escolha uma operação (+, -, *, /, //, **): ')
     
-    resultado = calculadora_basica(numero1, numero2, operacao)
+    resultado = operacoes_basicas(numero1, numero2, operacao)
     
     print(f'Resultado: {resultado:.1f}'
           f'\nParidade: {par_impar(resultado)}'
