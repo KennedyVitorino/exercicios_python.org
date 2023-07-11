@@ -2,11 +2,10 @@
 # ao nome do usuário, mostrando uma mensagem de erro e voltando a pedir as informações.
 
 
-def validar_credenciall():
+def validar_credencial():
     while True:
         nome_usuario = input('Digite seu nome: ')
         senha_usuario = int(input('Digite sua senha: '))
-        
         if senha_usuario != nome_usuario:
             print('Credênciais válidas!')
             break
@@ -14,7 +13,7 @@ def validar_credenciall():
             print('Erro a senha nao pode ser igual ao nome de usuário.')
 
 
-validar_credenciall()
+validar_credencial()
 
 
 # ----------------------------------------------------------------------------------------
@@ -26,7 +25,7 @@ def pedir_credenciais():
     return nome_usuario, senha_usuario
 
 
-def validar_credenciais(nome_usuario, senha_usuario):
+def validar_exibir_credenciais(nome_usuario, senha_usuario):
     while senha_usuario == nome_usuario:
         print('Senha inválida. Tente novamente')
         nome_usuario, senha_usuario = pedir_credenciais()
@@ -35,7 +34,7 @@ def validar_credenciais(nome_usuario, senha_usuario):
 
 def main():
     nome, senha = pedir_credenciais()
-    validar_credenciais(nome, senha)
+    validar_exibir_credenciais(nome, senha)
 
 
 if __name__ == '__main__':
