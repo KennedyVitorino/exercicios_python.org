@@ -2,5 +2,8 @@
 
 1. [Validador de nota](https://github.com/Knnedy/exercicios_python.org/blob/master/03_estrutura_de_repeticao/01_validar_nota.py)
 2. [Validador de credênciais](https://github.com/Knnedy/exercicios_python.org/blob/master/03_estrutura_de_repeticao/02_verificar_credenciais.py)
-3. []()
-4. []()
+3. [Validador de credênciais 2.0](https://github.com/Knnedy/exercicios_python.org/commit/a96b7c5a4b1090deeda15faf25977c46626ddade)
+4. [Crescimento populacional](https://github.com/Knnedy/exercicios_python.org/commit/c0af5709840d8843f84a7816cdc48ba355ad7e1f)
+5. [Crescimento populacional 2.0]()
+6. []()
+7. []()
