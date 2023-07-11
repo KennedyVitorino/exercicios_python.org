@@ -52,7 +52,7 @@ def main():
         print('Estado civil inválido. O estado civil deve ser\n'
               'S - Solteiro / C - Casado / V - Viúvo / D - Divorciado.')
         
-    print(f'Nome: {nome.capitalize()}'
+    print(f'\nNome: {nome.capitalize()}'
           f'\nIdade: {idade}'
           f'\nSalário: {salario:.2f}'
           f'\nSexo: {sexo.capitalize()}'
