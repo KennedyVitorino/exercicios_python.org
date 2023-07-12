@@ -7,7 +7,7 @@
 5. [Crescimento populacional 2.0](https://github.com/Knnedy/exercicios_python.org/blob/master/03_estrutura_de_repeticao/05_crescimento_populacional_2.0.py)
 6. [Iterar sequência numérica](https://github.com/Knnedy/exercicios_python.org/blob/master/03_estrutura_de_repeticao/06_iterar_numeros.py)
 7. [Maior entre os 5](https://github.com/Knnedy/exercicios_python.org/blob/master/03_estrutura_de_repeticao/07_encontrar_maior_numero.py)
-8. []()
+8. [Média dos números](https://github.com/Knnedy/exercicios_python.org/blob/master/03_estrutura_de_repeticao/08_media_dos_numeros.py)
 9. []()
 10. []()
 11. []()
