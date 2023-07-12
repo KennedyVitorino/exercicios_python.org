@@ -1,5 +1,5 @@
-# 5. Altere o programa anterior permitindo ao usuário informar as populações e as taxas de crescimento
-# iniciais. Valide a entrada e permita repetir a operação.
+# 5. Altere o programa anterior permitindo ao usuário informar as populações e as taxas de
+# crescimento iniciais. Valide a entrada e permita repetir a operação.
 
 def anos_populacao(pop_a, taxa_a, pop_b, taxa_b):
     anos = 0
