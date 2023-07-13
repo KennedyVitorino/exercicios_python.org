@@ -11,7 +11,7 @@
 9. [Conversor de Celsius para Fahrenheit.](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/9_fahrenheit_para_celsius.py)
 10. [Conversor de Fahrenheit para Celsius.](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/10_celsius_para_fahrenheit.py)
 11. [Operações com 2 inteiros e 1 real](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/11_operacoes_inteiros.py)
-12. [Calculo de IMC - ](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/12_calculo_IMC.py)
+12. [Calculo de IMC](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/12_calculo_IMC.py)
 13. [TCalculo de IMC - Homem/Mulher ](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/13_calculo_IMC_homem_mulher.py)
 14. [Controle de peso de peixes](https://github.com/Knnedy/python.org_exercicios/blob/master/lista_de_exercicios/estrutura_sequencial/14_controle_peso_peixes.py)
 15. [Calculo de salário com descontos (IR, INSS e SINDICATO).](https://github.com/Knnedy/exercicios_python.org/blob/master/lista_de_exercicios/estruturas_sequenciais/15_salario_com_descontos.py)
