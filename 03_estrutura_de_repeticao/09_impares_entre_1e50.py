@@ -16,7 +16,6 @@ def sequencia_impares_for(c):
     for c in range(50):
         if c % 2 == 1:
             print(c)
-            c += 1
     return c
 
 
