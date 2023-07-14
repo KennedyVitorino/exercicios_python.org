@@ -8,7 +8,12 @@ def fahrenheit_para_celsius(f):
     return c
 
 
-fahrenheit = float(input('Temperatura em Fahrenheit: '))
-convertida_para_celsius = fahrenheit_para_celsius(fahrenheit)
+def main():
+    fahrenheit = float(input('Temperatura em Fahrenheit: '))
+    convertida_para_celsius = fahrenheit_para_celsius(fahrenheit)
+    
+    print(f'Graus Celsius -> {convertida_para_celsius:.2f}º')
 
-print(f'Graus Celsius -> {convertida_para_celsius:.2f}º')
+
+if __name__ == '__main__':
+    main()
