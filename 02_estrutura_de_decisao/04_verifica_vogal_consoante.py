@@ -10,7 +10,12 @@ def encontra_vogal(v):
             return 'É consoante'
     
 
-letra = input('Digite a letra para verificar: ')
-vogal_consoante = encontra_vogal(letra)
+def main():
+    letra = input('Digite a letra para verificar: ')
+    vogal_consoante = encontra_vogal(letra)
+    
+    print(vogal_consoante)
 
-print(vogal_consoante)
+
+if __name__ == '__main__':
+    main()
