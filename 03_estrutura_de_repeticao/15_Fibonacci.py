@@ -33,7 +33,7 @@ def fibonacci_for(n):
 
 
 def main():
-    numero = int(input('Digite o valor d3 N: '))
+    numero = int(input('Digite o valor de N: '))
     fibonacci_while(numero)
     
     numero1 = int(input('Digite o valor de N: '))
