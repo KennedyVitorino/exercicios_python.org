@@ -16,10 +16,15 @@ def media_aritmetica(n1, n2):
     elif m >= 7:
         return f'Média -> {m:.1f}\n🥳👏🏽 APROVADO 🥳👏🏽'
     return f'Média -> {m:.1f}\n⚠️☠️ REPROVADO ☠️⚠️'
-    
-    
-nota_1 = float(input('Digite a primeira nota: '))
-nota_2 = float(input('Digite a segunda nota: '))
-media = media_aritmetica(nota_1, nota_2)
 
-print(f'\n{media}')
+
+def main():
+    nota_1 = float(input('Digite a primeira nota: '))
+    nota_2 = float(input('Digite a segunda nota: '))
+    media = media_aritmetica(nota_1, nota_2)
+    
+    print(f'\n{media}')
+
+    
+if __name__ == '__main__':
+    main()
