@@ -18,7 +18,7 @@ def gerar_intervalo_inteiros_for(n1, n2):
         n1, n2 = n2, n1
     for num in range(n1, n2 + 1):
         print(num)
-    
+
     
 def main():
     n1 = int(input('Digite o primeiro número: '))
