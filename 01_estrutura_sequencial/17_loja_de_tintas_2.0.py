@@ -35,31 +35,39 @@ def calcular_qtd_latas_galoes(qtd_total_tinta_necessaria):
     return qtd_latas_tintas, qtd_galoes_tinta
 
 
-area = float(input('Tamanho da área a ser pintada (em metros quadrados): '))
+def main():
+    area = float(input('Tamanho da área a ser pintada (em metros quadrados): '))
+    
+    tinta_necessaria = calcular_quantidade_tinta_necessaria(area)
+    qtd_latas = calcular_qtd_latas_tintas(tinta_necessaria)
+    qtd_galoes = calcular_qtd_galoes(tinta_necessaria)
+    calcular_qtd_latas_galoes(tinta_necessaria)
+    
+    preco_lata_tinta = 80
+    preco_galao_tinta = 25
+    
+    custo_latas = qtd_latas * preco_lata_tinta
+    custo_galoes = qtd_galoes * preco_galao_tinta
+    custo_total = custo_latas + custo_galoes
+    
+    print('\n+' + '-' * 45 + '+')
+    print('Situação 1: comprar apenas latas de 18 litros')
+    print(f'Quantidade de latas: {qtd_latas}')
+    print(f'Preco total: R$ {custo_latas:.2f}')
+    
+    print('\nSituação 2: Comprar apeas galões de 3,6 litros')
+    print(f'Quantidade de galões: {qtd_galoes}')
+    print(f'Preço total: R$ {custo_galoes:.2f}')
+    
+    print('\nSituação 3: Misturar latas e galões')
+    print(f'Quantidade de latas: {qtd_latas}')
+    print(f'Quantidade de galões: {qtd_galoes}')
+    print(f'Preço total: R$ {custo_total:.2f}')
+    print('\n+' + '-' * 45 + '+')
 
-tinta_necessaria = calcular_quantidade_tinta_necessaria(area)
-qtd_latas = calcular_qtd_latas_tintas(tinta_necessaria)
-qtd_galoes = calcular_qtd_galoes(tinta_necessaria)
-qtd_latas_galoes = calcular_qtd_latas_galoes(tinta_necessaria)
 
-preco_lata_tinta = 80
-preco_galao_tinta = 25
+if __name__ == '__main__':
+    main()
 
-custo_latas = qtd_latas * preco_lata_tinta
-custo_galoes = qtd_galoes * preco_galao_tinta
-custo_total = custo_latas + custo_galoes
 
-print('\n+' + '-' * 45 + '+')
-print('Situação 1: comprar apenas latas de 18 litros')
-print(f'Quantidade de latas: {qtd_latas}')
-print(f'Preco total: R$ {custo_latas:.2f}')
 
-print('\nSituação 2: Comprar apeas galões de 3,6 litros')
-print(f'Quantidade de galões: {qtd_galoes}')
-print(f'Preço total: R$ {custo_galoes:.2f}')
-
-print('\nSituação 3: Misturar latas e galões')
-print(f'Quantidade de latas: {qtd_latas}')
-print(f'Quantidade de galões: {qtd_galoes}')
-print(f'Preço total: R$ {custo_total:.2f}')
-print('\n+' + '-' * 45 + '+')
