@@ -10,8 +10,13 @@ def verifica_positivo_negativo(n):
     else:
         return 'Neutro'
     
+ 
+def main():
+    numero = int(input('Digite o número: '))
+    verifica_numero = verifica_positivo_negativo(numero)
     
-numero = int(input('Digite o número: '))
-verifica_positivo_negativo = verifica_positivo_negativo(numero)
+    print(verifica_numero)
 
-print(verifica_positivo_negativo)
+
+if __name__ == '__main__':
+    main()
