@@ -20,9 +20,14 @@ def obter_dia_semaana(d):
     else:
         return 'Esse número não corresponde a um dia da semana válido.'
     
-    
-dia = int(input('Digite\n''1-Domingo, 2-Segunda, 3-Terça, 4-Quarta, 5-Quinta, 6-Sexta e '
-                '7-Sabado: '))
-obter_dia_semaana = obter_dia_semaana(dia)
 
-print(f'Dia da semana escolhido: {obter_dia_semaana}')
+def main():
+    dia = int(input('Digite\n''1-Domingo, 2-Segunda, 3-Terça, 4-Quarta, 5-Quinta, 6-Sexta e '
+                    '7-Sabado: '))
+    dia_semaana = obter_dia_semaana(dia)
+    
+    print(f'Dia da semana escolhido: {dia_semaana}')
+
+
+if __name__ == '__main__':
+    main()
