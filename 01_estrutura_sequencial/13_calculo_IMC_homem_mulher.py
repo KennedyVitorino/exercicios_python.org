@@ -14,9 +14,14 @@ def calcular_imc_mulher(a):
     return imc
 
 
-altura = float(input('Informe sua altura: '))
-imc_homem = calcular_imc_homem(altura)
-imc_mulher = calcular_imc_mulher(altura)
+def main():
+    altura = float(input('Informe sua altura: '))
+    imc_homem = calcular_imc_homem(altura)
+    imc_mulher = calcular_imc_mulher(altura)
+    
+    print(f'O peso ideal para o homem que mede {altura:.2f} é -> {imc_homem:.2f}Kg')
+    print(f'O peso ideal para a mulher que pede {altura:.2f} é -> {imc_mulher:.2f}Kg')
 
-print(f'O peso ideal para o homem que mede {altura:.2f} é -> {imc_homem:.2f}Kg')
-print(f'O peso ideal para a mulher que pede {altura:.2f} é -> {imc_mulher:.2f}Kg')
+
+if __name__ == '__main__':
+    main()
