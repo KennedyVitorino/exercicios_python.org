@@ -31,10 +31,15 @@ def ordenar_numeros(num1, num2, num3):
     return numeros_ordem_decrescente
 
 
-n1 = float(input('Digite o primeiro número: '))
-n2 = float(input('Digite o segundo número: '))
-n3 = float(input('Digite o terceiro número: '))
-numeros_ordenados = ordenar_numeros(n1, n2, n3)
-ordem_decrescente = f'Ordem decrescente: {", ".join(map(str, numeros_ordenados))}'
+def main():
+    n1 = float(input('Digite o primeiro número: '))
+    n2 = float(input('Digite o segundo número: '))
+    n3 = float(input('Digite o terceiro número: '))
+    numeros_ordenados = ordenar_numeros(n1, n2, n3)
+    ordem_decrescente = f'Ordem decrescente: {", ".join(map(str, numeros_ordenados))}'
+    
+    print(ordem_decrescente)
 
-print(ordem_decrescente)
+
+if __name__ == '__main__':
+    main()
