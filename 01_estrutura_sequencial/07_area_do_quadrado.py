@@ -7,7 +7,12 @@ def calcular_area_quadrado(lado):
     return area
 
 
-lado_quadrado = float(input('Lado do quadrado: '))
-area_quadrado = calcular_area_quadrado(lado_quadrado)
+def main():
+    lado_quadrado = float(input('Lado do quadrado: '))
+    area_quadrado = calcular_area_quadrado(lado_quadrado)
+    
+    print(f'A área do quadrado é {area_quadrado:.1f}')
 
-print(f'A área do quadrado é {area_quadrado:.1f}')
+
+if __name__ == '__main__':
+    main()
