@@ -5,5 +5,11 @@ def exibir_numero(n):
     print(f'O número informado foi -> [{n}]')
 
 
-numero = int(input('Número: '))
-exibir_numero(numero)
+def main():
+    numero = int(input('Número: '))
+    exibir_numero(numero)
+
+
+
+if __name__ == '__main__':
+    main()
