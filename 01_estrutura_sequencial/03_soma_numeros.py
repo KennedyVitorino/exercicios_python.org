@@ -6,8 +6,14 @@ def somar(n1, n2):
     return s
     
     
-numero_1 = int(input('Número 1: '))
-numero_2 = int(input('Número 2: '))
-soma = somar(numero_1, numero_2)
+def main():
+    numero_1 = int(input('Número 1: '))
+    numero_2 = int(input('Número 2: '))
+    soma = somar(numero_1, numero_2)
+    
+    print(f'A soma é [{soma}]')
 
-print(f'A soma é [{soma}]')
+
+if __name__ == '__main__':
+    main()
+    
