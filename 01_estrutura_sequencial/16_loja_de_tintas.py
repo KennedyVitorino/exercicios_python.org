@@ -12,8 +12,13 @@ def calcular_quantidade_tinta(area):
     return latas_tinta, preco
     
     
-area_pintada = float(input('Metros quadrados da área a ser pintada: '))
-qtd_latas, preco_total = calcular_quantidade_tinta(area_pintada)
+def main():
+    area_pintada = float(input('Metros quadrados da área a ser pintada: '))
+    qtd_latas, preco_total = calcular_quantidade_tinta(area_pintada)
+    
+    print(f'Quantidade de latas e tinta necessárias: {qtd_latas}')
+    print(f'Preço total: R$ {preco_total:.2f}')
 
-print(f'Quantidade de latas e tinta necessárias: {qtd_latas}')
-print(f'Preço total: R$ {preco_total:.2f}')
+
+if __name__ == '__main__':
+    main()
