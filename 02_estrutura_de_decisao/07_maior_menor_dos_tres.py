@@ -8,9 +8,9 @@ def encontrar_maior(a, b, c):
     else:
         maior = c
     return maior
-    
 
-def encontrar_menor(a, b, c,):
+
+def encontrar_menor(a, b, c, ):
     if a < b and a < c:
         menor = a
     elif b < a and b < c:
@@ -18,15 +18,19 @@ def encontrar_menor(a, b, c,):
     else:
         menor = c
     return menor
+
+
+def main():
+    n1 = int(input('Número 1 -> '))
+    n2 = int(input('Número 2 -> '))
+    n3 = int(input('Número 3 -> '))
     
+    maior_numero = encontrar_maior(n1, n2, n3)
+    menor_numero = encontrar_menor(n1, n2, n3)
     
-n1 = int(input('Número 1 -> '))
-n2 = int(input('Número 2 -> '))
-n3 = int(input('Número 3 -> '))
+    print(f'\nO maior número é: {maior_numero}')
+    print(f'O menor número é: {menor_numero}')
 
-maior_numero = encontrar_maior(n1, n2, n3)
-menor_numero = encontrar_menor(n1, n2, n3)
 
-print(f'\nO maior número é: {maior_numero}')
-print(f'O menor número é: {menor_numero}')
-
+if __name__ == '__main__':
+    main()
