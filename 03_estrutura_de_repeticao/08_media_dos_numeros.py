@@ -1,23 +1,23 @@
 # 8. Faça um programa que leia 5 números e informe a soma e a média dos números
 
 
-def media_aritmetica_while(s):
-    c = 0
-    while c < 5:
-        n = float(input(f'Digite a {c + 1}° nota: '))
-        s += n
-        c += 1
-    return s / 5
+def media_aritmetica_while(soma):
+    contador = 0
+    while contador < 5:
+        numero = int(input('Digite um número: '))
+        soma += numero
+        contador += 1
+    return soma / 5
 
 
 # ------------------------------------------------------------------------------------------------------------
 
 
-def media_aritmetica_for(s):
-    for c in range(5):
-        n = float(input(f'Digite a {c + 1}° nota: '))
-        s += n
-    return s / 5
+def media_aritmetica_for(soma):
+    for contador in range(5):
+        numero = float(input(f'Digite a {contador + 1}° nota: '))
+        soma += numero
+    return soma / 5
     
     
 def main():
