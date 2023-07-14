@@ -13,7 +13,12 @@ def verifica_genero(g):
     return 'Gênero Inválido.'
 
 
-genero = input('digite o gênero: ')
-verifica_genero = verifica_genero(genero)
+def main():
+    genero = input('digite o gênero: ')
+    verificar_genero = verifica_genero(genero)
+    
+    print(f'{verificar_genero}')
 
-print(f'{verifica_genero}')
+
+if __name__ == '__main__':
+    main()
