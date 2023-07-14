@@ -1,4 +1,4 @@
-# 11. Altere o programa anterior para mostrar no final a soma dos números.
+# 11. Mude o programa anterior para mostrar no final a soma dos números.
 
 
 def somar_inteiros_gerados_while(n1, n2):
