@@ -18,14 +18,19 @@ def calcular_cubo_terceiro(num3):
     return resultado
 
 
-numero1 = int(input('Digite o primeiro número: '))
-numero2 = int(input('Digite o segundo número: '))
-numero3 = int(input('Digite o terceiro número: '))
+def main():
+    numero1 = int(input('Digite o primeiro número: '))
+    numero2 = int(input('Digite o segundo número: '))
+    numero3 = int(input('Digite o terceiro número: '))
+    
+    prod_dobro_metade = calcular_produto_dobro_metade(numero1, numero2)
+    soma_tiplo_terceiro = calcular_soma_triplo_terceiro(numero1, numero3)
+    cubo_terceiro = calcular_cubo_terceiro(numero3)
+    
+    print(f'O produto do dobro do primeiro com metade do segundo: {prod_dobro_metade}')
+    print(f'A soma do triplo do primeiro com o terceiro: {soma_tiplo_terceiro}')
+    print(f'O cubo do terceiro: {cubo_terceiro}')
 
-prod_dobro_metade = calcular_produto_dobro_metade(numero1, numero2)
-soma_tiplo_terceiro = calcular_soma_triplo_terceiro(numero1, numero3)
-cubo_terceiro = calcular_cubo_terceiro(numero3)
 
-print(f'O produto do dobro do primeiro com metade do segundo: {prod_dobro_metade}')
-print(f'A soma do triplo do primeiro com o terceiro: {soma_tiplo_terceiro}')
-print(f'O cubo do terceiro: {cubo_terceiro}')
+if __name__ == '__main__':
+    main()
