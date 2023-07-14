@@ -35,20 +35,25 @@ def calcular_sindicato(salario):
 def calcular_salario_liquido(salario, desconto_ir, desconto_inss, desconto_sindicato):
     return salario - desconto_ir - desconto_inss - desconto_sindicato
 
+
+def main():
+    preco_hora = float(input('Quanto você recebe por hora: R$ '))
+    carga_horaria = int(input('Quantas horas você trabalhou esse mês: '))
     
-preco_hora = float(input('Quanto você recebe por hora: R$ '))
-carga_horaria = int(input('Quantas horas você trabalhou esse mês: '))
+    salario_bruto = calcular_salario_bruto(preco_hora, carga_horaria)
+    imposto_renda = calcular_imposto_renda(salario_bruto)
+    inss = calcular_inss(salario_bruto)
+    sindicato = calcular_sindicato(salario_bruto)
+    salario_liquido = calcular_salario_liquido(salario_bruto, imposto_renda, inss, sindicato)
+    
+    print('\n+' + '-' * 40 + '+')
+    print(f'Salário Bruto: R$ {salario_bruto:.2f}')
+    print(f'Valor desconto do Imposto de Renda R$ {imposto_renda:.2f}')
+    print(f'Valor desconto do INSS: R$ {inss:.2f}')
+    print(f'Valor desconto do Sindicato R$ {sindicato:.2f}')
+    print(f'Salário liquido: R$ {salario_liquido:.2f}')
+    print('+' + '-' * 40 + '+')
 
-salario_bruto = calcular_salario_bruto(preco_hora, carga_horaria)
-imposto_renda = calcular_imposto_renda(salario_bruto)
-inss = calcular_inss(salario_bruto)
-sindicato = calcular_sindicato(salario_bruto)
-salario_liquido = calcular_salario_liquido(salario_bruto, imposto_renda, inss, sindicato)
 
-print('\n+' + '-' * 40 + '+')
-print(f'Salário Bruto: R$ {salario_bruto:.2f}')
-print(f'Valor desconto do Imposto de Renda R$ {imposto_renda:.2f}')
-print(f'Valor desconto do INSS: R$ {inss:.2f}')
-print(f'Valor desconto do Sindicato R$ {sindicato:.2f}')
-print(f'Salário liquido: R$ {salario_liquido:.2f}')
-print('+' + '-' * 40 + '+')
+if __name__ == '__main__':
+    main()
