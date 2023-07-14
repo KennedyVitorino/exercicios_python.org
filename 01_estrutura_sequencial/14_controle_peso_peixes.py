@@ -14,7 +14,7 @@ def calcular_excesso_multa(peso):
     excesso = 0
     multa = 0
     if peso > 50:
-        excesso = peso_peixes - 50
+        excesso = peso - 50
         multa = excesso * 4
     return excesso, multa
 
@@ -26,8 +26,14 @@ def mostrar_resultados(peso, excesso, multa):
         print(f'A multa a ser paga é de R$ {multa:.2f}.')
     else:
         print('Não houve excesso de peso. Nenhuma multa será aplicada')
-        
-        
-peso_peixes = float(input('Peso dos peixes: '))
-excesso_peso, valor_multa = calcular_excesso_multa(peso_peixes)
-mostrar_resultados(peso_peixes, excesso_peso, valor_multa)
+
+
+def main():
+    peso_peixes = float(input('Peso dos peixes: '))
+    excesso_peso, valor_multa = calcular_excesso_multa(peso_peixes)
+    mostrar_resultados(peso_peixes, excesso_peso, valor_multa)
+
+
+if __name__ == '__main__':
+    main()
+
