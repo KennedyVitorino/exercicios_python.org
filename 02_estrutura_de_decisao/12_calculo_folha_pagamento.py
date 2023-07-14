@@ -54,22 +54,26 @@ def calcular_salario_final(salario, total_descontos):
     return salario - total_descontos
 
 
-valor_hora = float(input('Digite quanto vale sua hora de trabalho: R$ '))
-horas_trabalhadas = float(input('Horas trabalhadas este mês: '))
+def main():
+    valor_hora = float(input('Digite quanto vale sua hora de trabalho: R$ '))
+    horas_trabalhadas = float(input('Horas trabalhadas este mês: '))
+    
+    salario_bruto = calcular_salario_bruto(valor_hora, horas_trabalhadas)
+    desconto_ir = calcular_desconto_ir(salario_bruto)
+    desconto_inss = calcular_desconto_inss(salario_bruto)
+    desconto_sindicato = calcular_desconto_sindicato(salario_bruto)
+    fgts = calcular_desconto_fgts(salario_bruto)
+    desconto_total = calcular_total_desconto(desconto_ir, desconto_inss, desconto_sindicato)
+    salario_liquido = calcular_salario_final(salario_bruto, desconto_total)
+    
+    print(f'Salário bruto: R$ {salario_bruto:.2f}'
+          f'\n(-) sindicato R$ {desconto_sindicato:.2f}'
+          f'\n(-) IR ({desconto_ir / salario_bruto * 100}%): R$ {desconto_ir:.2f}'
+          f'\n(-) INSS (10%): R$ {desconto_inss:.2f}'
+          f'\nFGTS (11%): R$ {fgts:.2f}'
+          f'\nTotal de descontos: R$ {desconto_total:.2f}'
+          f'\nSalário liquidoo: R$ {salario_liquido:.2f}')
 
-salario_bruto = calcular_salario_bruto(valor_hora, horas_trabalhadas)
-desconto_ir = calcular_desconto_ir(salario_bruto)
-desconto_inss = calcular_desconto_inss(salario_bruto)
-desconto_sindicato = calcular_desconto_sindicato(salario_bruto)
-fgts = calcular_desconto_fgts(salario_bruto)
-desconto_total = calcular_total_desconto(desconto_ir, desconto_inss, desconto_sindicato)
-salario_liquido = calcular_salario_final(salario_bruto, desconto_total)
 
-print(f'Salário bruto: R$ {salario_bruto:.2f}'
-      f'\n(-) sindicato R$ {desconto_sindicato:.2f}'
-      f'\n(-) IR ({desconto_ir / salario_bruto * 100}%): R$ {desconto_ir:.2f}'
-      f'\n(-) INSS (10%): R$ {desconto_inss:.2f}'
-      f'\nFGTS (11%): R$ {fgts:.2f}'
-      f'\nTotal de descontos: R$ {desconto_total:.2f}'
-      f'\nSalário liquidoo: R$ {salario_liquido:.2f}')
-
+if __name__ == '__main__':
+    main()
