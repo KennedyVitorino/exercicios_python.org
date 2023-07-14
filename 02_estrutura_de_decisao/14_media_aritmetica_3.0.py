@@ -25,8 +25,13 @@ def calcular_media_aritmetica(n1, n2):
         return 'Média inválida.'
 
 
-nota1 = float(input('Digite a primeira nota: '))
-nota2 = float(input('Digite a segunda nota: '))
-media = calcular_media_aritmetica(nota1, nota2)
+def main():
+    nota1 = float(input('Digite a primeira nota: '))
+    nota2 = float(input('Digite a segunda nota: '))
+    media = calcular_media_aritmetica(nota1, nota2)
+    
+    print(media)
 
-print(media)
+
+if __name__ == '__main__':
+    main()
