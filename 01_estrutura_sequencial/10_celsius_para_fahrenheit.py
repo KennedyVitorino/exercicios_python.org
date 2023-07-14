@@ -6,7 +6,12 @@ def celsius_para_fahrenheit(c):
     return f
 
 
-temperatura = float(input('Temperatura: '))
-convertida_para_fahren = celsius_para_fahrenheit(temperatura)
+def main():
+    temperatura = float(input('Temperatura: '))
+    convertida_para_fahren = celsius_para_fahrenheit(temperatura)
+    
+    print(f'Fahrenheit -> {convertida_para_fahren:.2f}º')
 
-print(f'Fahrenheit -> {convertida_para_fahren:.2f}º')
+
+if __name__ == '__main__':
+    main()
