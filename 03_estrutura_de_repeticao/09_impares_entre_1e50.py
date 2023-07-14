@@ -2,8 +2,6 @@
 
 
 def sequencia_impares_while(c, n):
-    c = 0
-    n = 1
     while c < 50 and n <= 50:
         if n % 2 == 1:
             print(n)
