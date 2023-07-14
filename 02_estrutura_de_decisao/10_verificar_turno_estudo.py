@@ -15,7 +15,12 @@ def verificar_turno_estudo(turno_estudo):
         return 'Digite um valor válido.'
     
 
-turno = input('Em qual turno voce estuda?\n[M]atutino, [V]espertino ou [N]Noturno: ')
-verificar_turno = verificar_turno_estudo(turno)
+def main():
+    turno = input('Em qual turno voce estuda?\n[M]atutino, [V]espertino ou [N]Noturno: ')
+    verificar_turno = verificar_turno_estudo(turno)
+    
+    print(f'\n{verificar_turno}')
 
-print(f'\n{verificar_turno}')
+
+if __name__ == '__main__':
+    main()
