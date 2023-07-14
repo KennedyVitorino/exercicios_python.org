@@ -8,7 +8,12 @@ def calcular_imc(a):
     return imc
 
 
-altura = float(input('Digite sua altura: '))
-calculo_imc = calcular_imc(altura)
+def main():
+    altura = float(input('Digite sua altura: '))
+    calculo_imc = calcular_imc(altura)
+    
+    print(f'O peso ideal para o homem que mede {altura:.2f} é {calculo_imc:.2f}Kg')
 
-print(f'O peso ideal para o homem que mede {altura:.2f} é {calculo_imc:.2f}Kg')
+
+if __name__ == '__main__':
+    main()
