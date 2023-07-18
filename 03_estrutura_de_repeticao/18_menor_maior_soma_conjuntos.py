@@ -19,9 +19,7 @@ def main():
     elementos_conjunto = int(input('Elementos: '))
     primeiro_numero = float(input('Primeiro número: '))
     menor, maior, soma = conjuntos(elementos_conjunto, primeiro_numero)
-    print(f'Menor: {menor}'
-          f'\nMaior: {maior}'
-          f'\nSoma: {soma}')
+    print(f'Menor: {menor}\nMaior: {maior}\nSoma: {soma}')
 
 
 if __name__ == '__main__':
