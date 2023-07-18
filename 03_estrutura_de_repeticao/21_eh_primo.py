@@ -3,7 +3,7 @@
 
 
 def eh_primo(numero):
-	for i in range(2, numero):
+	for i in range(2, numero):  # começar a iretação no 2
 		if numero % 2 == 0:
 			return 'Não é primo!'
 	return 'É primo'
